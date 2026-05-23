@@ -91,6 +91,8 @@ Founder: **Xurmatillo Oxunov**
 
 The system is the result of multi-year iterative design across several earlier prototype generations. Final version consolidates the best lessons into one integrated, globally deployable architecture.
 
+Need a custom version for your business? Hire me on Fiverr: http://www.fiverr.com/s/Ay5WBp5
+
 ---
 
 *Maximum capability. Maximum integrity. Maximum precision.*
