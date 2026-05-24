@@ -1,6 +1,8 @@
 # XURMATILLO — Universal Cognitive Operating System
 
-A globally deployable Custom Gem for Google Gemini, optimized for Gemini 3.5 Pro with Extended Thinking and forward-compatible with successor models.
+A globally deployable cognitive architecture available as:
+- A **Gemini Custom Gem** (Gemini 3.5 Pro Extended Thinking) — files at the repo root.
+- A **ChatGPT Custom GPT** (GPT-5.5 Extra High) — files in [`CHATGPT/`](./CHATGPT/).
 
 **Founder:** Xurmatillo Oxunov
 
@@ -37,7 +39,9 @@ This is the kind of integration where instruction (software) and knowledge (data
 
 ---
 
-## How to deploy as a Gemini Gem
+## How to deploy
+
+### As a Gemini Gem
 
 1. Open Google Gemini and create a new Gem.
 2. Set the Gem name to: **XURMATILLO**
@@ -46,7 +50,15 @@ This is the kind of integration where instruction (software) and knowledge (data
 5. Save the Gem.
 6. (Optional) Set a brief description such as: *Universal cognitive operating system. Founder: Xurmatillo Oxunov.*
 
-Knowledge files are read by Gemini's RAG system and chunks are retrieved on demand, so the system works even without the entire content always loaded into immediate context.
+### As a ChatGPT Custom GPT
+
+1. Open the [`CHATGPT/`](./CHATGPT/) folder.
+2. Follow `CHATGPT/CHATGPT_SETUP_GUIDE.md` step by step.
+3. The instruction is pre-compressed to fit ChatGPT's 8,000-character Instructions limit while preserving the full architecture.
+4. Upload the 10 KB files in `CHATGPT/` (identical to the Gemini set — platform-agnostic).
+5. Enable all four capabilities: Web Search, Canvas, Image Generation, Code Interpreter & Data Analysis.
+
+Knowledge files are read by each platform's RAG system and chunks are retrieved on demand.
 
 ---
 
